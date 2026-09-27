@@ -25,7 +25,11 @@
       "category": "utilities",
       "screenshots": [],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          {
+            "name": "App Group"
+          }
+        ],
         "privacy": [
           {
             "name": "NSFocusStatusUsageDescription",
