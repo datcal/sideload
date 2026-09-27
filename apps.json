@@ -51,6 +51,15 @@
       "versions": [
         {
           "version": "0.1",
+          "buildVersion": "3",
+          "date": "2026-09-27",
+          "localizedDescription": "Karanlık temada görünmeyen simgeler ve düğme yazıları düzeltildi.",
+          "downloadURL": "https://github.com/datcal/sideload/releases/download/simpleflashcard-v0.1/SimpleFlashCard-0.1.ipa",
+          "size": 674342,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1",
           "buildVersion": "2",
           "date": "2026-09-27",
           "localizedDescription": "Hoparlör düğmesi artık sayfanın en koyu şeyi değil.",
