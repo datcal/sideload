@@ -2,7 +2,7 @@
   "name": "Aile Uygulamaları",
   "identifier": "com.datcal.sideload",
   "subtitle": "Bu evde yapılan uygulamalar.",
-  "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/simpleflashcard.png",
+  "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/datcal.png",
   "apps": [
     {
       "bundleIdentifier": "de.burakhamza.datcalhelper",
