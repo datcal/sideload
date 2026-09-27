@@ -5,6 +5,44 @@
   "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/simpleflashcard.png",
   "apps": [
     {
+      "bundleIdentifier": "de.burakhamza.datcalhelper",
+      "versions": [
+        {
+          "version": "0.1",
+          "buildVersion": "1",
+          "date": "2026-09-27",
+          "localizedDescription": "İlk sürüm.",
+          "downloadURL": "https://github.com/datcal/sideload/releases/download/datcalhelper-v0.1/DatcalHelper-0.1.ipa",
+          "size": 2734793,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "name": "Datcal",
+      "developerName": "Burak Hamza",
+      "subtitle": "BVG kalkış saatleri, ve Almanca kelime kartları",
+      "localizedDescription": "Berlin'de takip ettiğin hatların kalkış saatleri — durağa yaklaşınca kendiliğinden, sabah belirlediğin saatte bildirimle, kilit ekranında geri sayımla ve saatinde kadran üzerinde.\n\nİnternet olmadan da çalışır: her hattın tarifesi indirilip telefonda durur, BVG'nin servisi çöktüğünde saatler oradan gelir.\n\nİçinde ayrıca Goethe A1 kelime kartları var — 682 kelime, sekiz soru tipi, Almanca okunuşuyla. Yalnız onu isteyen için ayrı bir uygulama olarak da var: Simple Flash Card.",
+      "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/datcal.png",
+      "category": "utilities",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "NSFocusStatusUsageDescription",
+            "usageDescription": "So the morning rule can fire when you leave Sleep Focus."
+          },
+          {
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "usageDescription": "So departures reach you without taking the phone out when you approach a stop. Your location never leaves the device."
+          },
+          {
+            "name": "NSLocationWhenInUseUsageDescription",
+            "usageDescription": "To work out which stop you are at. Your location never leaves the device."
+          }
+        ]
+      }
+    },
+    {
       "bundleIdentifier": "de.burakhamza.simpleflashcard",
       "versions": [
         {
