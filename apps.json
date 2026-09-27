@@ -1,0 +1,34 @@
+{
+  "name": "Aile Uygulamaları",
+  "identifier": "com.datcal.sideload",
+  "subtitle": "Bu evde yapılan uygulamalar.",
+  "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/simpleflashcard.png",
+  "apps": [
+    {
+      "bundleIdentifier": "de.burakhamza.simpleflashcard",
+      "versions": [
+        {
+          "version": "0.1",
+          "buildVersion": "1",
+          "date": "2026-09-27",
+          "localizedDescription": "İlk sürüm.",
+          "downloadURL": "https://github.com/datcal/sideload/releases/download/simpleflashcard-v0.1/SimpleFlashCard-0.1.ipa",
+          "size": 674192,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "name": "Simple Flash Card",
+      "developerName": "Burak Hamza",
+      "subtitle": "Goethe A1 Almanca kelime kartları",
+      "localizedDescription": "Goethe-Zertifikat A1 sınavının resmî kelime listesi — 682 kelime, 848 örnek cümle, hepsi Türkçe ve İngilizce karşılıklarıyla.\n\nKelimeyi tanıdın mı diye sormaz: yazdırır, cümlenin içindeki boşluğa koydurur, artikelini sordurur. Sekiz farklı soru tipi var ve kelimeyi öğrendikçe soru zorlaşır. Hangi kelimeyi ne zaman tekrar edeceğini FSRS-5 belirler — Anki'nin de kullandığı algoritma.\n\nHer kelime Almanca okunur. İnternet gerekmez, hesap gerekmez, hiçbir izin istemez. Bütün ilerlemen telefonunda kalır.",
+      "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/simpleflashcard.png",
+      "category": "education",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      }
+    }
+  ],
+  "news": []
+}
