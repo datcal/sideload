@@ -51,6 +51,15 @@
       "versions": [
         {
           "version": "0.1",
+          "buildVersion": "4",
+          "date": "2026-09-28",
+          "localizedDescription": "İstatistikler: seri, 12 haftalık çalışma ızgarası, doğruluk eğrisi, önümüzdeki 30 günün yükü ve en çok zorlandığın kelimeler — ana ekrandaki haftalık çubuğa dokun.\n\nSınav tarihi: ayarlardan bir tarih koy, ana ekran günde kaç yeni kelime gerektiğini söylesin.\n\nKısa tur: sekiz kelime, yazma yok. Siri'ye \"kısa tur\" ya da \"kelime çalış\" da diyebilirsin.",
+          "downloadURL": "https://github.com/datcal/sideload/releases/download/simpleflashcard-v0.1-4/SimpleFlashCard-0.1-4.ipa",
+          "size": 868474,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1",
           "buildVersion": "3",
           "date": "2026-09-27",
           "localizedDescription": "Karanlık temada görünmeyen simgeler ve düğme yazıları düzeltildi.",
@@ -80,7 +89,7 @@
       "name": "Simple Flash Card",
       "developerName": "Burak Hamza",
       "subtitle": "Goethe A1 Almanca kelime kartları",
-      "localizedDescription": "Goethe-Zertifikat A1 sınavının resmî kelime listesi — 682 kelime, 848 örnek cümle, hepsi Türkçe ve İngilizce karşılıklarıyla.\n\nKelimeyi tanıdın mı diye sormaz: yazdırır, cümlenin içindeki boşluğa koydurur, artikelini sordurur. Sekiz farklı soru tipi var ve kelimeyi öğrendikçe soru zorlaşır. Hangi kelimeyi ne zaman tekrar edeceğini FSRS-5 belirler — Anki'nin de kullandığı algoritma.\n\nHer kelime Almanca okunur. İnternet gerekmez, hesap gerekmez, hiçbir izin istemez. Bütün ilerlemen telefonunda kalır.",
+      "localizedDescription": "Goethe-Zertifikat A1 sınavının resmî kelime listesi — 682 kelime, 848 örnek cümle, hepsi Türkçe ve İngilizce karşılıklarıyla.\n\nKelimeyi tanıdın mı diye sormaz: yazdırır, cümlenin içindeki boşluğa koydurur, artikelini sordurur. Sekiz farklı soru tipi var ve kelimeyi öğrendikçe soru zorlaşır. Hangi kelimeyi ne zaman tekrar edeceğini FSRS-5 belirler — Anki'nin de kullandığı algoritma.\n\nHer kelime Almanca okunur. İnternet gerekmez, hesap gerekmez. Bütün ilerlemen telefonunda kalır; istersen bir dosyaya yedekleyip başka bir telefona taşırsın. Tek izin, günlük hatırlatmayı açarsan bildirim izni.",
       "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/simpleflashcard.png",
       "category": "education",
       "screenshots": [],
