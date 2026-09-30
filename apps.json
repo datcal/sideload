@@ -51,6 +51,15 @@
       "versions": [
         {
           "version": "0.1",
+          "buildVersion": "5",
+          "date": "2026-09-30",
+          "localizedDescription": "İstatistikler: seri, 12 haftalık çalışma ızgarası, doğruluk eğrisi, önümüzdeki 30 günün yükü ve en çok zorlandığın kelimeler — ana ekrandaki haftalık çubuğa dokun.\n\nSınav tarihi: ayarlardan bir tarih koy, ana ekran günde kaç yeni kelime gerektiğini söylesin.\n\nKısa tur: sekiz kelime, yazma yok. Siri'ye \"kısa tur\" ya da \"kelime çalış\" da diyebilirsin.",
+          "downloadURL": "https://github.com/datcal/sideload/releases/download/simpleflashcard-v0.1-5/SimpleFlashCard-0.1-5.ipa",
+          "size": 947526,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1",
           "buildVersion": "4",
           "date": "2026-09-28",
           "localizedDescription": "İstatistikler: seri, 12 haftalık çalışma ızgarası, doğruluk eğrisi, önümüzdeki 30 günün yükü ve en çok zorlandığın kelimeler — ana ekrandaki haftalık çubuğa dokun.\n\nSınav tarihi: ayarlardan bir tarih koy, ana ekran günde kaç yeni kelime gerektiğini söylesin.\n\nKısa tur: sekiz kelime, yazma yok. Siri'ye \"kısa tur\" ya da \"kelime çalış\" da diyebilirsin.",
