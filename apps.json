@@ -51,6 +51,15 @@
       "versions": [
         {
           "version": "0.1",
+          "buildVersion": "7",
+          "date": "2026-10-03",
+          "localizedDescription": "Konulara göre çalışma: 680 kelime 19 konuya ayrıldı — yemek, ulaşım, iş, sağlık… Bir konuyu seçip yalnızca onu çalışabilirsin.\n\nKendi kelimelerin: Excel'den ya da Anki'den dışa aktardığın bir dosyayı içe aktar, ya da kelimeleri tek tek yaz. Kendi listen de aynı şekilde sorulur.\n\nDört yeni soru tipi: cümleyi karışık kutulardan kur, fiili çek (ich/du/er…), duyduğun cümleyi yaz, ve artikeli yanlış bildiğinde son ekin kuralını gör.\n\nListe ve sözlük: A–Z bölümler, arama (Äpfel, aepfel, gerne hepsi bulur), her kelimenin detay sayfası.\n\niPad desteği, cevabı sesle verme, ve VoiceOver ile tam erişilebilirlik.",
+          "downloadURL": "https://github.com/datcal/sideload/releases/download/simpleflashcard-v0.1-7/SimpleFlashCard-0.1-7.ipa",
+          "size": 1368843,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "0.1",
           "buildVersion": "6",
           "date": "2026-09-30",
           "localizedDescription": "İstatistikler: seri, 12 haftalık çalışma ızgarası, doğruluk eğrisi, önümüzdeki 30 günün yükü ve en çok zorlandığın kelimeler — ana ekrandaki haftalık çubuğa dokun.\n\nSınav tarihi: ayarlardan bir tarih koy, ana ekran günde kaç yeni kelime gerektiğini söylesin.\n\nKısa tur: sekiz kelime, yazma yok. Siri'ye \"kısa tur\" ya da \"kelime çalış\" da diyebilirsin.",
@@ -107,13 +116,22 @@
       "name": "Simple Flash Card",
       "developerName": "Burak Hamza",
       "subtitle": "Goethe A1 Almanca kelime kartları",
-      "localizedDescription": "Goethe-Zertifikat A1 sınavının resmî kelime listesi — 682 kelime, 848 örnek cümle, hepsi Türkçe ve İngilizce karşılıklarıyla.\n\nKelimeyi tanıdın mı diye sormaz: yazdırır, cümlenin içindeki boşluğa koydurur, artikelini sordurur. Sekiz farklı soru tipi var ve kelimeyi öğrendikçe soru zorlaşır. Hangi kelimeyi ne zaman tekrar edeceğini FSRS-5 belirler — Anki'nin de kullandığı algoritma.\n\nHer kelime Almanca okunur. İnternet gerekmez, hesap gerekmez. Bütün ilerlemen telefonunda kalır; istersen bir dosyaya yedekleyip başka bir telefona taşırsın. Tek izin, günlük hatırlatmayı açarsan bildirim izni.",
+      "localizedDescription": "Goethe-Zertifikat A1 sınavının resmî kelime listesi — 680 kelime, 2600’den fazla örnek cümle, hepsi Türkçe ve İngilizce karşılıklarıyla.\n\nKelimeyi tanıdın mı diye sormaz: yazdırır, cümlenin içindeki boşluğa koydurur, artikelini sordurur. On bir farklı soru tipi var ve kelimeyi öğrendikçe soru zorlaşır. Hangi kelimeyi ne zaman tekrar edeceğini FSRS-5 belirler — Anki'nin de kullandığı algoritma.\n\nHer kelime Almanca okunur. İnternet gerekmez, hesap gerekmez. Bütün ilerlemen telefonunda kalır; istersen bir dosyaya yedekleyip başka bir telefona taşırsın. İzinler yalnızca sen açarsan istenir: günlük hatırlatma için bildirim, \"Cevabı sesle ver\" için mikrofon ve konuşma tanıma.",
       "iconURL": "https://raw.githubusercontent.com/datcal/sideload/main/icons/simpleflashcard.png",
       "category": "education",
       "screenshots": [],
       "appPermissions": {
         "entitlements": [],
-        "privacy": []
+        "privacy": [
+          {
+            "name": "NSMicrophoneUsageDescription",
+            "usageDescription": "Simple Flash Card listens only while you use the microphone key on a typing question, to hear the German word you say. The audio is processed on your device and is not recorded or sent anywhere."
+          },
+          {
+            "name": "NSSpeechRecognitionUsageDescription",
+            "usageDescription": "Simple Flash Card turns the German word you say into text on your device, for typing questions. Recognition runs offline; nothing is sent to Apple or anyone else."
+          }
+        ]
       }
     }
   ],
